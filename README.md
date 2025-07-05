@@ -1,3 +1,5 @@
+# Notes
+
 ## Embed a script:
 `<script src="script.js"></script>` at bottom
 
