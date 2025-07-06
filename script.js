@@ -37,3 +37,27 @@ console.log(typeof new_string);  // Gives string
 
 // tut 56
 
+/*
+let age=17;
+let c = (age > 18) ? "can drive" : "cant drive";
+console.log(c);
+
+
+let other_age=10;
+
+if (age>10 && age<20){
+    console.log("Age within limit")
+}
+else{
+    console.log("Outside limit")
+}
+
+let num=32;
+
+if (num%3==0 || num%2==0){
+    console.log("Num div by 2 or 3")
+}
+else{
+    console.log("Num not div by neither 2 nor 3")
+}
+*/

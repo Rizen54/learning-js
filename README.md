@@ -100,4 +100,18 @@ let object_name = {
 |---|---|
 |==|Check value|
 |===|Check value and type|
+|?|[Ternary Operator](#--Ternary-Operator)|
+|&&|Logical AND (just like `and` in python)|
+|\|\||Logical OR (just like `or` in python)|
+|!|Logical NOT (just like `not` in python)|
 
+### Ternary Operator (?)
+Uses if-else logic to give certain output based on certain condition.  
+Syntax: `condition ? output_if_true : output_if_false;`  
+**Example:**  
+```js
+let a=1;
+let b=2;
+let c = (a > b) ? "a is greater" : "b is greater";
+console.log(c);  // Gives b is greater
+```
