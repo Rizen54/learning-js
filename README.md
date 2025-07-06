@@ -72,7 +72,7 @@ let object_name = {
 };
 ```
 
-- Key may or may not be written in double quotes, space containing key names must be in double quotes.
+- Key may or may not be written in double quotes, space containing key names must be in double quotes.  
   `name: "Rizen"` ✅  
   `"name": "Rizen"` ✅  
   `"job salary": 2000000` ✅  
