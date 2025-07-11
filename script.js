@@ -61,3 +61,52 @@ else{
     console.log("Num not div by neither 2 nor 3")
 }
 */
+
+// tut 57
+
+/*
+for (let i=0; i < 100; i++) {
+    // Work to do.
+}
+
+let obj = {
+    name: "Satvik",
+    age: 13,
+    salary: 90000,
+}
+
+for (const key in obj){
+    const element = obj[key];
+    console.log(key, element);
+}
+
+for (const c of "Hello"){
+    console.log(c);
+}
+
+let a = 10; 
+while (a<10){
+    console.log(a)
+    a++
+}
+
+let x = 10;
+do {
+    console.log(x)
+    x++
+} while (x < 10);
+
+// Gives:
+// 10
+// --------
+
+let y = 8;
+do {
+    console.log(y)
+    y++
+} while (y < 10);
+
+// Gives:
+// 8
+// 9
+*/

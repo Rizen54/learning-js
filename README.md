@@ -13,6 +13,14 @@ Get type of a variable `a`.
 typeof a
 ```  
 
+Basic incrementing for loop:  
+```js
+for (let i=0; i < 100; i++) {
+    // Work to do.
+}
+```
+
+
 ### Basic prompts/msgs
 Give a message:  
 ```js
@@ -85,8 +93,8 @@ let object_name = {
 - Content of an object declared using `const` can be edited but the object itself cannot be changed.
   ```js
   const o = {
-    name: "Rizen",
-    "job salary": "2 Million"
+      name: "Rizen",
+      "job salary": "2 Million"
   };
   o.age = 19;  // ✅
   o.name = "Someone else"  // ✅
@@ -115,3 +123,70 @@ let b=2;
 let c = (a > b) ? "a is greater" : "b is greater";
 console.log(c);  // Gives b is greater
 ```
+
+## Loops
+
+### For loop
+
+```js
+for (let i=0; i < 100; i++) {
+    // Work to do.
+}
+```  
+
+syntax: `for (Initiate i, set limit for i, increment/decrement i)`  
+
+### For in
+
+```js
+for (const key in obj){
+    const element = obj[key];
+    // Do stuff with key/element
+}
+```
+
+### For of
+
+```js
+for (const item of iterable_object){
+    // Do stuff with item
+}
+```
+
+`iterable object` is `array` or `string`. But not `object`.
+
+
+### While
+
+```js
+let x = 0; 
+while (x<10){
+    console.log(x)
+    x++
+}
+```
+
+### Do While
+```js
+let x = 10;
+do {
+    console.log(x)
+    x++
+} while (x < 10);
+
+// Gives:
+// 10
+// --------
+
+let y = 8;
+do {
+    console.log(y)
+    y++
+} while (y < 10);
+
+// Gives:
+// 8
+// 9
+```
+
+Runs the `do code` *before* the condition check.
